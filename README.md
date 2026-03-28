@@ -41,11 +41,10 @@ It includes both:
 
 ```id="t9x3ka"
 Tour-Management-System/
-│── src/                  # Frontend code
+│── src/                  # Frontend code with .php files
 │── docs/
 │    ├── ERD.pdf
 │    └── Relational-Schema.pdf
-│── assets/               # Screenshots
 │── README.md
 ```
 

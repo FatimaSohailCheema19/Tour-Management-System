@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Titan</title>
+    <link rel="stylesheet" href="tour.css">
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <ul class="ul" style="display: block;">
+                <li class="li-logo" ><img src="logo1.png" alt="" height="70vh" width="75vh"></li>
+
+                <li class="li-login"><a href="login.html"><img src="login-icon.png" alt="Login" height="40vh" width="40vh" style="float: right;margin-top: 15px;margin-right: 20px;"> </a></li>
+                
+                <!-- <li class="li"><a href="contact.html" style="margin-right:500px ;">Contact</a></li> -->
+                <li class="li"><a href="blog.html"  style="margin-right:400px ;">Blog</a></li>
+                <li class="li"><a href="tour.html">Tour</a></li>
+                <li class="li"><a href="home.html">Home</a></li>
+                
+            </ul>
+       </div>
+
+        <div class="hero-section">
+            <div class="container">
+                <div class="content">
+                    <h1>EXPLORE YOUR<br>DREAM DESTINATIONS <br> WITH TRAVEL TITAN'S </h1>
+                    <p>Offering comprehensive travel solutions to individuals and groups</p>
+                </div>
+            </div>
+        </div>
+
+        <form action="select.php" method="get">
+            <div class="select-section">
+                <select name="country" class="select-country">
+                    <option value="" disabled selected>Select Country</option>
+                    <option value="Greece">Greece</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="England">England</option>
+                </select>
+                <select name="budget" class="select-budget">
+                    <option value="" disabled selected>Budget</option>
+                    <option value="low">Basic ($0 - $500)</option>
+                    <option value="medium">Standard ($500 - $1500)</option>
+                    <option value="high">Premium ($1500+)</option>
+                </select>
+                
+                <button type="submit" class="ok-button">OK</button>
+            </div>
+        </form>
+
+        <div class="container3">
+           
+            <div class="card" style="width: 150px; height: 150pxs;">
+                <img src="spain.jpg" alt="spain">
+                <h3>Spain</h3>
+            </div>
+            <div class="card">
+                <img src="italy.jpg" alt="italy">
+                <h3>Italy</h3>
+            </div>
+            <div class="card">
+                <img src="turkey.jpg" alt="turkey">
+                <h3>Turkey</h3>
+            </div>
+            <div class="card">
+                <img src="japan.jpg" alt="japan">
+                <h3>Japan</h3>
+            </div>
+            <div class="card">
+                <img src="Big ben.jpg" alt="England">
+                <h3>England</h3>
+            </div>
+            <div class="card">
+                <img src="greece.jpg" alt="greece">
+                <h3>Greece</h3>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="logo">
+                <img src="logo2.png" alt="Logo">
+            </div>
+            <nav class="footer-nav">
+                <ul>
+                    <li class="li"><a href="home.html">Home</a></li>
+                    <li class="li"><a href="tour.html">Tour</a></li>
+                    <li class="li"><a href="blog.html">Blog</a></li>
+                    <li class="li"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="footer-bottom">
+                <p>&copy; 2016 Dreamy Inc. All rights reserved</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

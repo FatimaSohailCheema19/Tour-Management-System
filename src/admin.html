@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <style>
+            *{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    position: relative;
+}
+
+.nav {
+    background-color: #621708; /* Background color for the navbar */
+    width: auto;
+    height: 80px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    padding: 0 20px; /* Padding for spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for better look */
+    position: relative;
+}
+
+/* Unordered List */
+.ul {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: space-between; /* Distribute items evenly */
+}
+
+/* Logo */
+.li-logo {
+    margin-top: 10px;
+    margin-right: auto; /* Pushes the logo to the left */
+}
+
+.li-logo img {
+    height: 70px; /* Adjust height */
+    width: auto; /* Maintain aspect ratio */
+}
+
+/* Login Icon */
+.li-login img {
+    height: 40px; /* Set height */
+    width: auto; /* Maintain aspect ratio */
+}
+
+/* Navigation Links */
+.li {
+    margin: 0 15px; /* Spacing between items */
+   font-size: 20px;
+}
+
+.li a {
+    text-decoration: none;
+    color: antiquewhite; /* Text color */
+    padding: 10px 15px; /* Padding for spacing */
+    display: block;
+    font-size: 16px; /* Font size */
+}
+
+.li a:hover {
+    background-color: #f1f2f2; /* Background color on hover */
+    color: #FF7D00; /* Text color on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin: 20px;
+    height:80px ;
+    padding: 10px;
+    width: 250px;
+    border-radius:20px ;
+    background-color: #FF7D00;
+    color: #faebd7;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover{
+    background-color: #FFC107;
+    color: #fff;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="nav">
+                <ul class="ul">
+                    
+                    <li class="li-logo" ><img src="logo1.png" alt="" height="70vh" width="75vh"  " ></li>
+                    <li class="li"><a href="index.html">Main</a></li>
+                    <li class="li"><a href="home.html">Home</a></li>
+                    <li class="li"><a href="blog.html" style="margin-right: 500px;">Blog</a></li>
+                    
+                    <li class="li-login"><a href="signadmininsert.php"><img src="login-icon.png" alt="Login" height="40vh" width="40vh" style="float: right;margin-top: 15px;margin-right: 20px;"> </a></li>
+                    
+                </ul>
+            </div>
+            <img src="1.webp" alt="" width="100%" height="800px" >
+            <div class="button-container">
+                <a href="mtour.html"><button class="button">Manage Tours</button></a>
+                <a href="vbook.html"><button class="button">View Bookings</button></a>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Reservation Form</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+
+    <div class="nav">
+        <ul class="ul">
+            <li class="li-logo"><img src="logo1.png" alt="Logo" height="70vh" width="75vh"></li>
+            <li class="li"><a href="contact.html">Contact</a></li>
+            <li class="li"><a href="blog.html">Blog</a></li>
+            <li class="li"><a href="tour.html">Tour</a></li>
+            <li class="li"><a href="home.html">Home</a></li>
+        </ul>
+    </div>
+    
+    <div class="pic">
+        <img src="1.webp" alt="Tour Image" width="100%" height="800px">
+
+        <div class="container">
+            <h2>Tour Reservation Form</h2>
+            <form  action="registrationInsert.php" method="$post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="tour-date">Tour Date:</label>
+                <input type="date" id="tour-date" name="tourdate" required>
+
+                <label for="participants">Number of Participants:</label>
+                <input type="number" id="participants" name="participants" min="1" required>
+
+                <label for="message">Special Requests:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <input type="Submit" name="submit" value="submit">
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="logo">
+            <img src="logo2.png" alt="Logo">
+        </div>
+        <nav class="footer-nav">
+            <ul>
+                <li class="li"><a href="home.html">Home</a></li>
+                <li class="li"><a href="tour.html">Tour</a></li>
+                <li class="li"><a href="blog.html">Blog</a></li>
+                <li class="li"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="footer-bottom">
+            <p>&copy; 2016 Dreamy Inc. All rights reserved</p>
+        </div>
+    </div>
+
+</body>
+</html>

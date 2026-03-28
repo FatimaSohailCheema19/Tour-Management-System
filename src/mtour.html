@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Make Tour Packages</title>
+    <link rel="stylesheet" type="text/css" href="mtour.css">
+</head>
+<body>
+    <header>
+        <h1>Make Tour Packages</h1>
+    </header>
+    <main>
+        <section id="manage-tours">
+            
+            <h2>Add New Tour</h2>
+            <form action="mtourinsert.php" method="post">
+                <div class="form-group">
+                    <label for="title">Country</label>
+                    <input type="text" id="title" name="country" placeholder="country" required>
+                </div>
+                <div class="form-group">
+                    <label for="title">City Name : </label>
+                    <input type="text" id="title" name="city" placeholder="city name" required>
+                </div>
+                <div class="form-group">
+                    <label for="title">Transport : </label>
+                    <input type="text" id="title" name="transport" placeholder="Transport type" required>
+                </div>
+                <div class="form-group">
+                    <label for="title">Duration : </label>
+                    <input type="text" id="title" name="duration" placeholder="Duration of tour " required>
+                </div>
+                <div class="form-group">
+                    <label for="title">languages : </label>
+                    <input type="text" id="title" name="languages" placeholder="languages use in country" required>
+                </div>
+                <div class="form-group">
+                    <label for="title">Price : </label>
+                    <input type="text" id="title" name="price" placeholder="Price of tour" required>
+                </div>
+                <input type="Submit" name="submit" value="submit">
+                
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tour Management System</p>
+    </footer>
+</body>
+</html>
